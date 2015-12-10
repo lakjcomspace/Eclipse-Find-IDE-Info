@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse-IDE-Info
+Bundle-SymbolicName: com.lakj.comspace.eclipse.info;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: com.lakj.comspace.eclipse.info.Activator
+Bundle-Vendor: LakJ Comspace
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

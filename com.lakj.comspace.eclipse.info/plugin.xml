@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Eclipse Info Action Set"
+            visible="true"
+            id="com.lakj.comspace.eclipse.info.actionSet">
+         <menu
+               label="Eclipse Info &amp;Menu"
+               id="infoMenu">
+            <separator
+                  name="infoGroup">
+            </separator>
+         </menu>
+         <action
+               label="&amp;Eclipse Info Action"
+               icon="icons/lakj-icon.png"
+               class="com.lakj.comspace.eclipse.info.actions.InfoAction"
+               tooltip="Show Eclipse IDE Info"
+               menubarPath="infoMenu/infoGroup"
+               toolbarPath="infoGroup"
+               id="com.lakj.comspace.eclipse.info.actions.InfoAction">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>
